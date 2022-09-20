@@ -1,3 +1,9 @@
+---
+sidebar_position: 1
+sidebar_label: Settings
+title: ""
+---
+
 # Settings
 
 This page contains a list of advanced settings which can be used in Harvester.
@@ -17,8 +23,11 @@ SOME-CA-CERTIFICATES
 -----END CERTIFICATE-----
 ```
 
-!!! warning
-    Changing this setting might cause a short downtime for single-node clusters.
+:::caution
+
+Changing this setting might cause a short downtime for single-node clusters.
+
+:::
 
 ## `backup-target`
 
@@ -78,12 +87,18 @@ The following options and values can be set:
 }
 ```
 
-!!!note
-    Harvester appends necessary addresses to user configured `no-proxy` to ensure the internal traffic works.
-    i.e., `localhost,127.0.0.1,0.0.0.0,10.0.0.0/8,longhorn-system,cattle-system,cattle-system.svc,.svc,.cluster.local`
+:::note
 
-!!! warning
-    Changing this setting might cause a short downtime for single-node clusters.
+Harvester appends necessary addresses to user configured `no-proxy` to ensure the internal traffic works.
+i.e., `localhost,127.0.0.1,0.0.0.0,10.0.0.0/8,longhorn-system,cattle-system,cattle-system.svc,.svc,.cluster.local`
+
+:::
+
+:::caution
+
+Changing this setting might cause a short downtime for single-node clusters.
+
+:::
 
 ## `log-level`
 
@@ -174,8 +189,11 @@ Default: `{}`
 }
 ```
 
-!!! warning
-    Changing this setting might cause a short downtime on single-node clusters.
+:::caution
+
+Changing this setting might cause a short downtime on single-node clusters.
+
+:::
 
 ## `ssl-parameters`
 
@@ -192,8 +210,11 @@ If no value is provided, `protocols` is set to `TLSv1.2` only and the `ciphers` 
 
 Default: none
 
-!!! note
-    See [Troubleshooting](../../troubleshooting/harvester/#i-cant-access-harvester-after-i-changed-ssltls-enabled-protocols-and-ciphers) if you have misconfigured this setting and no longer have access to Harvester GUI and API.
+:::note
+
+See [Troubleshooting](../troubleshooting/harvester#i-cant-access-harvester-after-i-changed-ssltls-enabled-protocols-and-ciphers) if you have misconfigured this setting and no longer have access to Harvester GUI and API.
+
+:::
 
 #### Example
 
@@ -264,9 +285,12 @@ https://your.upgrade.checker-url/v99/checkupgrade
 This setting allows Harvester to automatically add disks that match the given glob pattern as VM storage.
 It's possible to provide multiple patterns by separating them with a comma.
 
-!!! warning
-    - This setting is applied to **every Node** in the cluster.
-    - All the data in these storage devices **will be destroyed**. Use at your own risk.
+:::caution
+
+- This setting is applied to **every Node** in the cluster.
+- All the data in these storage devices **will be destroyed**. Use at your own risk.
+
+:::
 
 Default: none
 

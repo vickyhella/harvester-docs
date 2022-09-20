@@ -1,5 +1,7 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
+sidebar_label: Harvester Configuration
+title: ""
 keywords:
   - Harvester
   - harvester
@@ -76,14 +78,18 @@ system_settings:
 
 Below is a reference of all configuration keys.
 
-!!!warning
-    **Security Risks**: The configuration file contains credentials which should be kept secret. Please do not make the configuration file publicly accessible.
+:::caution
 
-!!!note
-    **Configuration Priority**: When you provide a remote Harvester Configuration file during the install of Harvester, the Harvester Configuration file will not
-    overwrite the values for the inputs you had previously filled out and selected.  Priority is given to the values that you input during the guided install.
-    For instance, if you have in your Harvester Configuration file specified `os.hostname` and during install you fill in the field of `hostname` when prompted,
-    the value that you filled in will take priority over your Harvester Configuration's `os.hostname`.  
+**Security Risks**: The configuration file contains credentials which should be kept secret. Please do not make the configuration file publicly accessible.
+
+:::
+
+:::note
+
+**Configuration Priority**: When you provide a remote Harvester Configuration file during the install of Harvester, the Harvester Configuration file will not overwrite the values for the inputs you had previously filled out and selected.  Priority is given to the values that you input during the guided install.
+For instance, if you have in your Harvester Configuration file specified `os.hostname` and during install you fill in the field of `hostname` when prompted, the value that you filled in will take priority over your Harvester Configuration's `os.hostname`.
+
+:::
 
 ### `server_url`
 
@@ -93,9 +99,11 @@ The URL of the Harvester server to join as an agent.
 
 This configuration is mandatory when the installation is in `JOIN` mode. It tells the Harvester installer where the main server is.
 
-!!! note
-    To ensure a high availability (HA) Harvester cluster,
-    either use the Harvester main server [VIP](./#installvip) or a domain name in `server_url`.
+:::note
+
+To ensure a high availability (HA) Harvester cluster, either use the Harvester main server [VIP](#installvip) or a domain name in `server_url`.
+
+:::
 
 #### Example
 
@@ -293,10 +301,13 @@ os:
     https_proxy: http://myserver
 ```
 
-!!! note
-    This example sets the HTTP(S) proxy for **foundational OS components**.
-    To set up an HTTP(S) proxy for Harvester components such as fetching external images and backup to S3 services,
-    see [Settings/http-proxy](../../settings/settings/#http-proxy).
+:::note
+
+This example sets the HTTP(S) proxy for **foundational OS components**.
+To set up an HTTP(S) proxy for Harvester components such as fetching external images and backup to S3 services,
+see [Settings/http-proxy](../settings/settings.md#http-proxy).
+
+:::
 
 ### `os.labels`
 
@@ -343,12 +354,18 @@ the values are configurations for each network. Valid configuration fields are:
     - `miimon: 100`
 - `mtu`: The MTU for the interface.
 
-!!! note
-    A network called `harvester-mgmt` is mandatory to establish a valid [management network](../networking/harvester-network.md#management-network).
+:::note
 
-!!! note
-    Harvester uses the [systemd net naming scheme](https://www.freedesktop.org/software/systemd/man/systemd.net-naming-scheme.html).
-    Please make sure the interface name is present on the target machine before installation.
+A network called `harvester-mgmt` is mandatory to establish a valid [management network](../networking/harvester-network.md#management-network).
+
+:::
+
+:::note
+
+Harvester uses the [systemd net naming scheme](https://www.freedesktop.org/software/systemd/man/systemd.net-naming-scheme.html).
+Please make sure the interface name is present on the target machine before installation.
+
+:::
 
 #### Example
 
@@ -437,7 +454,7 @@ install:
     - `static`: Harvester uses a static VIP.
 - `install.vip_hw_addr`: The hardware address corresponding to the VIP. Users must configure their on-premise DHCP server to offer the configured VIP. The field is mandatory when `install.vip_mode` is `dhcp`.
 
-See [Management Address](../management-address) for more information.
+See [Management Address](./management-address.md) for more information.
 
 #### Example
 
@@ -465,12 +482,14 @@ install:
 By default, Harvester uses GPT partitioning scheme on both UEFI and BIOS systems.
 However, if you face compatibility issues, the MBR partitioning scheme can be forced on BIOS systems.
 
-!!! note
-    Harvester creates an additional partition for storing VM data if
-    [`install.data_disk`](./#installdata_disk) is configured to use the same
-    storage device as the one set for [`install.device`](./#installdevice).
-    When force using MBR, no additional partition will be created and VM data will
-    be stored in a partition shared with the OS data.
+:::note
+
+Harvester creates an additional partition for storing VM data if
+[`install.data_disk`](#installdata_disk) is configured to use the same
+storage device as the one set for [`install.device`](#installdevice).
+When force using MBR, no additional partition will be created and VM data will be stored in a partition shared with the OS data.
+
+:::
 
 #### Example
 
@@ -487,7 +506,7 @@ _Available as of v1.0.1_
 
 Sets the default storage device to store the VM data.
 
-Default: Same storage device as the one set for [`install.device`](./#installdevice)
+Default: Same storage device as the one set for [`install.device`](#installdevice)
 
 #### Example
 
@@ -501,12 +520,15 @@ install:
 #### Definition
 
 You can overwrite the default Harvester system settings by configuring `system_settings`.
-See the [Settings](../../settings/settings) page for additional information and the list of all the options.
+See the [Settings](../settings/settings.md) page for additional information and the list of all the options.
 
-!!! note
-    Overwriting system settings only works when Harvester is installed in "create" mode.
-    If you install Harvester in "join" mode, this setting is ignored.
-    Installing in "join" mode will adopt the system settings from the existing Harvester system.
+:::note
+
+Overwriting system settings only works when Harvester is installed in "create" mode.
+If you install Harvester in "join" mode, this setting is ignored.
+Installing in "join" mode will adopt the system settings from the existing Harvester system.
+
+:::
 
 #### Example
 
@@ -532,10 +554,13 @@ You can setup the default network in Harvester by configuring `cluster_networks`
     - `config`: `ClusterNetworks` configuration to be used. Valid configuration fields are:
         - `defaultPhysicalNIC` (string, required): assign a physical NIC to be external entry of VLAN network.
 
-!!! note
-    To configure the `cluster_networks`, Harvester needs to be installed in "create" mode.
-    If you install Harvester in "join" mode, this setting is ignored.
-    Installing in "join" mode will apply the `cluster_networks` configuration from the existing Harvester system.
+:::note
+
+To configure the `cluster_networks`, Harvester needs to be installed in "create" mode.
+If you install Harvester in "join" mode, this setting is ignored.
+Installing in "join" mode will apply the `cluster_networks` configuration from the existing Harvester system.
+
+:::
 
 #### Example
 
