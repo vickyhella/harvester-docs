@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkharvester_docs=self.webpackChunkharvester_docs||[]).push([[6107],{6987:e=>{e.exports=JSON.parse('{"permalink":"/harvester-docs/kb/tags/vm","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Harvester HCI knowledge base"}')}}]);
