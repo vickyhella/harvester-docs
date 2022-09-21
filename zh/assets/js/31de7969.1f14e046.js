@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkharvester_docs=self.webpackChunkharvester_docs||[]).push([[5621],{7438:e=>{e.exports=JSON.parse('{"permalink":"/harvester-docs/zh/kb","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"\u535a\u6587","blogTitle":"Harvester HCI \u77e5\u8bc6\u5e93"}')}}]);
