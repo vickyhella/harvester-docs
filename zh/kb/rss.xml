@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>The open source hyperconverged infrastructure (HCI) solution for a cloud native world Blog</title>
-        <link>https://docs.harvesterhci.io/zh/kb</link>
+        <link>https://vickyhella.site/harvester-docs/zh/kb</link>
         <description>The open source hyperconverged infrastructure (HCI) solution for a cloud native world Blog</description>
         <lastBuildDate>Wed, 06 Apr 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>zh</language>
         <item>
             <title><![CDATA[NIC Naming Scheme]]></title>
-            <link>https://docs.harvesterhci.io/zh/kb/nic-naming-scheme</link>
+            <link>https://vickyhella.site/harvester-docs/zh/kb/nic-naming-scheme</link>
             <guid>nic-naming-scheme</guid>
             <pubDate>Wed, 06 Apr 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[NIC Naming Scheme changed after upgrading to v1.0.1]]></description>
@@ -19,7 +19,7 @@
         </item>
         <item>
             <title><![CDATA[Multiple NICs VM Connectivity]]></title>
-            <link>https://docs.harvesterhci.io/zh/kb/multiple-nics-vm-connectivity</link>
+            <link>https://vickyhella.site/harvester-docs/zh/kb/multiple-nics-vm-connectivity</link>
             <guid>multiple-nics-vm-connectivity</guid>
             <pubDate>Thu, 10 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[What is the default behavior of a VM with multiple NICs]]></description>
@@ -30,7 +30,7 @@ For example:</p><div class="codeBlockContainer_Ckt0 theme-code-block" style="--p
         </item>
         <item>
             <title><![CDATA[VM Scheduling]]></title>
-            <link>https://docs.harvesterhci.io/zh/kb/vm-scheduling</link>
+            <link>https://vickyhella.site/harvester-docs/zh/kb/vm-scheduling</link>
             <guid>vm-scheduling</guid>
             <pubDate>Mon, 07 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[How does Harvester schedule VMs?]]></description>
