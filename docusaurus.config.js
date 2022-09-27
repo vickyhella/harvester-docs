@@ -9,7 +9,7 @@ const config = {
   title:
     "The open source hyperconverged infrastructure (HCI) solution for a cloud native world",
   tagline: "",
-  url: "https://docs.harvesterhci.io",
+  url: "https://harvesterhci.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -38,7 +38,7 @@ const config = {
           editUrl: "https://github.com/harvester/docs/edit/main/",
           versions: {
             current: {
-              label: 'Next 🚧',
+              label: 'v1.1-dev 🚧',
             },
           }
         },
@@ -83,7 +83,7 @@ const config = {
           className: "navbar__blog",
         },
         {
-          to: "kb",
+          href: "https://harvesterhci.io/kb",
           position: "right",
           label: "Knowledge Base",
           className: "navbar__kb",
@@ -92,7 +92,7 @@ const config = {
           href: "https://github.com/harvester/harvester",
           label: "GitHub",
           position: "right",
-          className: "navbar__github",
+          className: "navbar__github btn btn-secondary icon-github",
         },
       ],
     },
@@ -119,25 +119,7 @@ const config = {
     description:
       "An open-source hyperconverged infrastructure (HCI) software for a cloud-native world",
   },
-  plugins: [
-    [
-      "@docusaurus/plugin-content-blog",
-      {
-        /**
-         * Required for any multi-instance plugin
-         */
-        id: "kb",
-        path: "./kb",
-        showReadingTime: true,
-        // Please change this to your repo.
-        editUrl: "https://github.com/harvester/docs/edit/main/",
-        blogTitle: "Harvester HCI knowledge base",
-        routeBasePath: "kb",
-        include: ["**/*.{md,mdx}"],
-        postsPerPage: 10,
-      },
-    ],
-  ],
+  plugins: [],
 };
 
 module.exports = config;
