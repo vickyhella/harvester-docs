@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: "Harvester",
   tagline: "The open source hyperconverged infrastructure (HCI) solution for a cloud native world",
-  url: "https://docs.harvesterhci.io",
+  url: "https://docs.vickyhella.site",
   baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
