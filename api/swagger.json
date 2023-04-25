@@ -16,7 +16,7 @@
         "tags": [
           "Volumes"
         ],
-        "summary": "List Persistent Volume Claim",
+        "summary": "List Persistent Volume Claims",
         "operationId": "listNamespacedPersistentVolumeClaim",
         "parameters": [
           {
@@ -104,7 +104,7 @@
         "tags": [
           "Volumes"
         ],
-        "summary": "Create Persistent Volume Claim",
+        "summary": "Create a Persistent Volume Claim",
         "operationId": "createNamespacedPersistentVolumeClaim",
         "parameters": [
           {
@@ -165,7 +165,7 @@
         "tags": [
           "Volumes"
         ],
-        "summary": "Read Persistent Volume Claim",
+        "summary": "Read a Persistent Volume Claim",
         "operationId": "readNamespacedPersistentVolumeClaim",
         "parameters": [
           {
@@ -211,7 +211,7 @@
         "tags": [
           "Volumes"
         ],
-        "summary": "Replace Persistent Volume Claim",
+        "summary": "Replace a Persistent Volume Claim",
         "operationId": "replaceNamespacedPersistentVolumeClaim",
         "parameters": [
           {
@@ -257,7 +257,7 @@
         "tags": [
           "Volumes"
         ],
-        "summary": "Delete Persistent Volume Claim",
+        "summary": "Delete a Persistent Volume Claim",
         "operationId": "deleteNamespacedPersistentVolumeClaim",
         "parameters": [
           {
@@ -271,7 +271,7 @@
           {
             "uniqueItems": true,
             "type": "integer",
-            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The va lue zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
+            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
             "name": "gracePeriodSeconds",
             "in": "query"
           },
@@ -317,7 +317,7 @@
         "tags": [
           "Volumes"
         ],
-        "summary": "Patch Persistent Volume Claim",
+        "summary": "Patch a Persistent Volume Claim",
         "operationId": "patchNamespacedPersistentVolumeClaim",
         "parameters": [
           {
@@ -374,7 +374,7 @@
         "tags": [
           "Volumes"
         ],
-        "summary": "List Persistent Volume Claim For All Namespaces",
+        "summary": "List Persistent Volume Claims For All Namespaces",
         "operationId": "listPersistentVolumeClaimForAllNamespaces",
         "responses": {
           "200": {
@@ -461,7 +461,7 @@
         "tags": [
           "SSH Keys"
         ],
-        "summary": "List Key Pair For All Namespaces",
+        "summary": "List Key Pairs For All Namespaces",
         "operationId": "listKeyPairForAllNamespaces",
         "responses": {
           "200": {
@@ -548,7 +548,7 @@
         "tags": [
           "SSH Keys"
         ],
-        "summary": "List Key Pair",
+        "summary": "List Key Pairs",
         "operationId": "listNamespacedKeyPair",
         "parameters": [
           {
@@ -636,7 +636,7 @@
         "tags": [
           "SSH Keys"
         ],
-        "summary": "Create Key Pair",
+        "summary": "Create a Key Pair",
         "operationId": "createNamespacedKeyPair",
         "parameters": [
           {
@@ -697,7 +697,7 @@
         "tags": [
           "SSH Keys"
         ],
-        "summary": "Read Key Pair",
+        "summary": "Read a Key Pair",
         "operationId": "readNamespacedKeyPair",
         "parameters": [
           {
@@ -743,7 +743,7 @@
         "tags": [
           "SSH Keys"
         ],
-        "summary": "Replace Key Pair",
+        "summary": "Replace a Key Pair",
         "operationId": "replaceNamespacedKeyPair",
         "parameters": [
           {
@@ -789,7 +789,7 @@
         "tags": [
           "SSH Keys"
         ],
-        "summary": "Delete Key Pair",
+        "summary": "Delete a Key Pair",
         "operationId": "deleteNamespacedKeyPair",
         "parameters": [
           {
@@ -803,7 +803,7 @@
           {
             "uniqueItems": true,
             "type": "integer",
-            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The va lue zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
+            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
             "name": "gracePeriodSeconds",
             "in": "query"
           },
@@ -849,7 +849,7 @@
         "tags": [
           "SSH Keys"
         ],
-        "summary": "Patch Key Pair",
+        "summary": "Patch a Key Pair",
         "operationId": "patchNamespacedKeyPair",
         "parameters": [
           {
@@ -906,7 +906,7 @@
         "tags": [
           "Support Bundles"
         ],
-        "summary": "List Support Bundle",
+        "summary": "List Support Bundles",
         "operationId": "listNamespacedSupportBundle",
         "parameters": [
           {
@@ -994,7 +994,7 @@
         "tags": [
           "Support Bundles"
         ],
-        "summary": "Create Support Bundle",
+        "summary": "Create a Support Bundle",
         "operationId": "createNamespacedSupportBundle",
         "parameters": [
           {
@@ -1055,7 +1055,7 @@
         "tags": [
           "Support Bundles"
         ],
-        "summary": "Read Support Bundle",
+        "summary": "Read a Support Bundle",
         "operationId": "readNamespacedSupportBundle",
         "parameters": [
           {
@@ -1101,7 +1101,7 @@
         "tags": [
           "Support Bundles"
         ],
-        "summary": "Replace Support Bundle",
+        "summary": "Replace a Support Bundle",
         "operationId": "replaceNamespacedSupportBundle",
         "parameters": [
           {
@@ -1147,7 +1147,7 @@
         "tags": [
           "Support Bundles"
         ],
-        "summary": "Delete Support Bundle",
+        "summary": "Delete a Support Bundle",
         "operationId": "deleteNamespacedSupportBundle",
         "parameters": [
           {
@@ -1161,7 +1161,7 @@
           {
             "uniqueItems": true,
             "type": "integer",
-            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The va lue zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
+            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
             "name": "gracePeriodSeconds",
             "in": "query"
           },
@@ -1207,7 +1207,7 @@
         "tags": [
           "Support Bundles"
         ],
-        "summary": "Patch Support Bundle",
+        "summary": "Patch a Support Bundle",
         "operationId": "patchNamespacedSupportBundle",
         "parameters": [
           {
@@ -1264,7 +1264,7 @@
         "tags": [
           "Upgrades"
         ],
-        "summary": "List Upgrade",
+        "summary": "List Upgrades",
         "operationId": "listNamespacedUpgrade",
         "parameters": [
           {
@@ -1352,7 +1352,7 @@
         "tags": [
           "Upgrades"
         ],
-        "summary": "Create Upgrade",
+        "summary": "Create an Upgrade",
         "operationId": "createNamespacedUpgrade",
         "parameters": [
           {
@@ -1413,7 +1413,7 @@
         "tags": [
           "Upgrades"
         ],
-        "summary": "Read Upgrade",
+        "summary": "Read an Upgrade",
         "operationId": "readNamespacedUpgrade",
         "parameters": [
           {
@@ -1459,7 +1459,7 @@
         "tags": [
           "Upgrades"
         ],
-        "summary": "Replace Upgrade",
+        "summary": "Replace an Upgrade",
         "operationId": "replaceNamespacedUpgrade",
         "parameters": [
           {
@@ -1505,7 +1505,7 @@
         "tags": [
           "Upgrades"
         ],
-        "summary": "Delete Upgrade",
+        "summary": "Delete an Upgrade",
         "operationId": "deleteNamespacedUpgrade",
         "parameters": [
           {
@@ -1519,7 +1519,7 @@
           {
             "uniqueItems": true,
             "type": "integer",
-            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The va lue zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
+            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
             "name": "gracePeriodSeconds",
             "in": "query"
           },
@@ -1565,7 +1565,7 @@
         "tags": [
           "Upgrades"
         ],
-        "summary": "Patch Upgrade",
+        "summary": "Patch an Upgrade",
         "operationId": "patchNamespacedUpgrade",
         "parameters": [
           {
@@ -1622,7 +1622,7 @@
         "tags": [
           "Backups"
         ],
-        "summary": "List Virtual Machine Backup",
+        "summary": "List Virtual Machine Backups",
         "operationId": "listNamespacedVirtualMachineBackup",
         "parameters": [
           {
@@ -1710,7 +1710,7 @@
         "tags": [
           "Backups"
         ],
-        "summary": "Create Virtual Machine Backup",
+        "summary": "Create a Virtual Machine Backup",
         "operationId": "createNamespacedVirtualMachineBackup",
         "parameters": [
           {
@@ -1771,7 +1771,7 @@
         "tags": [
           "Backups"
         ],
-        "summary": "Read Virtual Machine Backup",
+        "summary": "Read a Virtual Machine Backup",
         "operationId": "readNamespacedVirtualMachineBackup",
         "parameters": [
           {
@@ -1817,7 +1817,7 @@
         "tags": [
           "Backups"
         ],
-        "summary": "Replace Virtual Machine Backup",
+        "summary": "Replace a Virtual Machine Backup",
         "operationId": "replaceNamespacedVirtualMachineBackup",
         "parameters": [
           {
@@ -1863,7 +1863,7 @@
         "tags": [
           "Backups"
         ],
-        "summary": "Delete Virtual Machine Backup",
+        "summary": "Delete a Virtual Machine Backup",
         "operationId": "deleteNamespacedVirtualMachineBackup",
         "parameters": [
           {
@@ -1877,7 +1877,7 @@
           {
             "uniqueItems": true,
             "type": "integer",
-            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The va lue zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
+            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
             "name": "gracePeriodSeconds",
             "in": "query"
           },
@@ -1923,7 +1923,7 @@
         "tags": [
           "Backups"
         ],
-        "summary": "Patch Virtual Machine Backup",
+        "summary": "Patch a Virtual Machine Backup",
         "operationId": "patchNamespacedVirtualMachineBackup",
         "parameters": [
           {
@@ -1980,7 +1980,7 @@
         "tags": [
           "Images"
         ],
-        "summary": "List Virtual Machine Image",
+        "summary": "List Virtual Machine Images",
         "operationId": "listNamespacedVirtualMachineImage",
         "parameters": [
           {
@@ -2068,7 +2068,7 @@
         "tags": [
           "Images"
         ],
-        "summary": "Create Virtual Machine Image",
+        "summary": "Create a Virtual Machine Image",
         "operationId": "createNamespacedVirtualMachineImage",
         "parameters": [
           {
@@ -2129,7 +2129,7 @@
         "tags": [
           "Images"
         ],
-        "summary": "Read Virtual Machine Image",
+        "summary": "Read a Virtual Machine Image",
         "operationId": "readNamespacedVirtualMachineImage",
         "parameters": [
           {
@@ -2175,7 +2175,7 @@
         "tags": [
           "Images"
         ],
-        "summary": "Replace Virtual Machine Image",
+        "summary": "Replace a Virtual Machine Image",
         "operationId": "replaceNamespacedVirtualMachineImage",
         "parameters": [
           {
@@ -2221,7 +2221,7 @@
         "tags": [
           "Images"
         ],
-        "summary": "Delete Virtual Machine Image",
+        "summary": "Delete a Virtual Machine Image",
         "operationId": "deleteNamespacedVirtualMachineImage",
         "parameters": [
           {
@@ -2235,7 +2235,7 @@
           {
             "uniqueItems": true,
             "type": "integer",
-            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The va lue zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
+            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
             "name": "gracePeriodSeconds",
             "in": "query"
           },
@@ -2281,7 +2281,7 @@
         "tags": [
           "Images"
         ],
-        "summary": "Patch Virtual Machine Image",
+        "summary": "Patch a Virtual Machine Image",
         "operationId": "patchNamespacedVirtualMachineImage",
         "parameters": [
           {
@@ -2338,7 +2338,7 @@
         "tags": [
           "Restores"
         ],
-        "summary": "List Virtual Machine Restore",
+        "summary": "List Virtual Machine Restores",
         "operationId": "listNamespacedVirtualMachineRestore",
         "parameters": [
           {
@@ -2426,7 +2426,7 @@
         "tags": [
           "Restores"
         ],
-        "summary": "Create Virtual Machine Restore",
+        "summary": "Create a Virtual Machine Restore",
         "operationId": "createNamespacedVirtualMachineRestore",
         "parameters": [
           {
@@ -2487,7 +2487,7 @@
         "tags": [
           "Restores"
         ],
-        "summary": "Read Virtual Machine Restore",
+        "summary": "Read a Virtual Machine Restore",
         "operationId": "readNamespacedVirtualMachineRestore",
         "parameters": [
           {
@@ -2533,7 +2533,7 @@
         "tags": [
           "Restores"
         ],
-        "summary": "Replace Virtual Machine Restore",
+        "summary": "Replace a Virtual Machine Restore",
         "operationId": "replaceNamespacedVirtualMachineRestore",
         "parameters": [
           {
@@ -2579,7 +2579,7 @@
         "tags": [
           "Restores"
         ],
-        "summary": "Delete Virtual Machine Restore",
+        "summary": "Delete a Virtual Machine Restore",
         "operationId": "deleteNamespacedVirtualMachineRestore",
         "parameters": [
           {
@@ -2593,7 +2593,7 @@
           {
             "uniqueItems": true,
             "type": "integer",
-            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The va lue zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
+            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
             "name": "gracePeriodSeconds",
             "in": "query"
           },
@@ -2639,7 +2639,7 @@
         "tags": [
           "Restores"
         ],
-        "summary": "Patch Virtual Machine Restore",
+        "summary": "Patch a Virtual Machine Restore",
         "operationId": "patchNamespacedVirtualMachineRestore",
         "parameters": [
           {
@@ -2696,7 +2696,7 @@
         "tags": [
           "Virtual Machine Templates"
         ],
-        "summary": "List Virtual Machine Template",
+        "summary": "List Virtual Machine Templates",
         "operationId": "listNamespacedVirtualMachineTemplate",
         "parameters": [
           {
@@ -2784,7 +2784,7 @@
         "tags": [
           "Virtual Machine Templates"
         ],
-        "summary": "Create Virtual Machine Template",
+        "summary": "Create a Virtual Machine Template",
         "operationId": "createNamespacedVirtualMachineTemplate",
         "parameters": [
           {
@@ -2845,7 +2845,7 @@
         "tags": [
           "Virtual Machine Templates"
         ],
-        "summary": "Read Virtual Machine Template",
+        "summary": "Read a Virtual Machine Template",
         "operationId": "readNamespacedVirtualMachineTemplate",
         "parameters": [
           {
@@ -2891,7 +2891,7 @@
         "tags": [
           "Virtual Machine Templates"
         ],
-        "summary": "Replace Virtual Machine Template",
+        "summary": "Replace a Virtual Machine Template",
         "operationId": "replaceNamespacedVirtualMachineTemplate",
         "parameters": [
           {
@@ -2937,7 +2937,7 @@
         "tags": [
           "Virtual Machine Templates"
         ],
-        "summary": "Delete Virtual Machine Template",
+        "summary": "Delete a Virtual Machine Template",
         "operationId": "deleteNamespacedVirtualMachineTemplate",
         "parameters": [
           {
@@ -2951,7 +2951,7 @@
           {
             "uniqueItems": true,
             "type": "integer",
-            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The va lue zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
+            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
             "name": "gracePeriodSeconds",
             "in": "query"
           },
@@ -2997,7 +2997,7 @@
         "tags": [
           "Virtual Machine Templates"
         ],
-        "summary": "Patch Virtual Machine Template",
+        "summary": "Patch a Virtual Machine Template",
         "operationId": "patchNamespacedVirtualMachineTemplate",
         "parameters": [
           {
@@ -3054,7 +3054,7 @@
         "tags": [
           "Virtual Machine Templates"
         ],
-        "summary": "List Virtual Machine Template Version",
+        "summary": "List Virtual Machine Template Versions",
         "operationId": "listNamespacedVirtualMachineTemplateVersion",
         "parameters": [
           {
@@ -3142,7 +3142,7 @@
         "tags": [
           "Virtual Machine Templates"
         ],
-        "summary": "Create Virtual Machine Template Version",
+        "summary": "Create a Virtual Machine Template Version",
         "operationId": "createNamespacedVirtualMachineTemplateVersion",
         "parameters": [
           {
@@ -3203,7 +3203,7 @@
         "tags": [
           "Virtual Machine Templates"
         ],
-        "summary": "Read Virtual Machine Template Version",
+        "summary": "Read a Virtual Machine Template Version",
         "operationId": "readNamespacedVirtualMachineTemplateVersion",
         "parameters": [
           {
@@ -3249,7 +3249,7 @@
         "tags": [
           "Virtual Machine Templates"
         ],
-        "summary": "Replace Virtual Machine Template Version",
+        "summary": "Replace a Virtual Machine Template Version",
         "operationId": "replaceNamespacedVirtualMachineTemplateVersion",
         "parameters": [
           {
@@ -3295,7 +3295,7 @@
         "tags": [
           "Virtual Machine Templates"
         ],
-        "summary": "Delete Virtual Machine Template Version",
+        "summary": "Delete a Virtual Machine Template Version",
         "operationId": "deleteNamespacedVirtualMachineTemplateVersion",
         "parameters": [
           {
@@ -3309,7 +3309,7 @@
           {
             "uniqueItems": true,
             "type": "integer",
-            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The va lue zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
+            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
             "name": "gracePeriodSeconds",
             "in": "query"
           },
@@ -3355,7 +3355,7 @@
         "tags": [
           "Virtual Machine Templates"
         ],
-        "summary": "Patch Virtual Machine Template Version",
+        "summary": "Patch a Virtual Machine Template Version",
         "operationId": "patchNamespacedVirtualMachineTemplateVersion",
         "parameters": [
           {
@@ -3412,7 +3412,7 @@
         "tags": [
           "Support Bundles"
         ],
-        "summary": "List Support Bundle For All Namespaces",
+        "summary": "List Support Bundles For All Namespaces",
         "operationId": "listSupportBundleForAllNamespaces",
         "responses": {
           "200": {
@@ -3499,7 +3499,7 @@
         "tags": [
           "Upgrades"
         ],
-        "summary": "List Upgrade For All Namespaces",
+        "summary": "List Upgrades For All Namespaces",
         "operationId": "listUpgradeForAllNamespaces",
         "responses": {
           "200": {
@@ -3586,7 +3586,7 @@
         "tags": [
           "Backups"
         ],
-        "summary": "List Virtual Machine Backup For All Namespaces",
+        "summary": "List Virtual Machine Backups For All Namespaces",
         "operationId": "listVirtualMachineBackupForAllNamespaces",
         "responses": {
           "200": {
@@ -3673,7 +3673,7 @@
         "tags": [
           "Images"
         ],
-        "summary": "List Virtual Machine Image For All Namespaces",
+        "summary": "List Virtual Machine Images For All Namespaces",
         "operationId": "listVirtualMachineImageForAllNamespaces",
         "responses": {
           "200": {
@@ -3760,7 +3760,7 @@
         "tags": [
           "Restores"
         ],
-        "summary": "List Virtual Machine Restore For All Namespaces",
+        "summary": "List Virtual Machine Restores For All Namespaces",
         "operationId": "listVirtualMachineRestoreForAllNamespaces",
         "responses": {
           "200": {
@@ -3847,7 +3847,7 @@
         "tags": [
           "Virtual Machine Templates"
         ],
-        "summary": "List Virtual Machine Template For All Namespaces",
+        "summary": "List Virtual Machine Templates For All Namespaces",
         "operationId": "listVirtualMachineTemplateForAllNamespaces",
         "responses": {
           "200": {
@@ -3934,7 +3934,7 @@
         "tags": [
           "Virtual Machine Templates"
         ],
-        "summary": "List Virtual Machine Template Version For All Namespaces",
+        "summary": "List Virtual Machine Template Versions For All Namespaces",
         "operationId": "listVirtualMachineTemplateVersionForAllNamespaces",
         "responses": {
           "200": {
@@ -4021,7 +4021,7 @@
         "tags": [
           "Networks"
         ],
-        "summary": "List Network Attachment Definition",
+        "summary": "List Network Attachment Definitions",
         "operationId": "listNamespacedNetworkAttachmentDefinition",
         "parameters": [
           {
@@ -4109,7 +4109,7 @@
         "tags": [
           "Networks"
         ],
-        "summary": "Create Network Attachment Definition",
+        "summary": "Create a Network Attachment Definition",
         "operationId": "createNamespacedNetworkAttachmentDefinition",
         "parameters": [
           {
@@ -4170,7 +4170,7 @@
         "tags": [
           "Networks"
         ],
-        "summary": "Read Network Attachment Definition",
+        "summary": "Read a Network Attachment Definition",
         "operationId": "readNamespacedNetworkAttachmentDefinition",
         "parameters": [
           {
@@ -4216,7 +4216,7 @@
         "tags": [
           "Networks"
         ],
-        "summary": "Replace Network Attachment Definition",
+        "summary": "Replace a Network Attachment Definition",
         "operationId": "replaceNamespacedNetworkAttachmentDefinition",
         "parameters": [
           {
@@ -4262,7 +4262,7 @@
         "tags": [
           "Networks"
         ],
-        "summary": "Delete Network Attachment Definition",
+        "summary": "Delete a Network Attachment Definition",
         "operationId": "deleteNamespacedNetworkAttachmentDefinition",
         "parameters": [
           {
@@ -4276,7 +4276,7 @@
           {
             "uniqueItems": true,
             "type": "integer",
-            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The va lue zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
+            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
             "name": "gracePeriodSeconds",
             "in": "query"
           },
@@ -4322,7 +4322,7 @@
         "tags": [
           "Networks"
         ],
-        "summary": "Patch Network Attachment Definition",
+        "summary": "Patch a Network Attachment Definition",
         "operationId": "patchNamespacedNetworkAttachmentDefinition",
         "parameters": [
           {
@@ -4379,7 +4379,7 @@
         "tags": [
           "Networks"
         ],
-        "summary": "List Network Attachment Definition For All Namespaces",
+        "summary": "List Network Attachment Definitions For All Namespaces",
         "operationId": "listNetworkAttachmentDefinitionForAllNamespaces",
         "responses": {
           "200": {
@@ -4466,7 +4466,7 @@
         "tags": [
           "Migrations"
         ],
-        "summary": "List Virtual Machine Instance Migration",
+        "summary": "List Virtual Machine Instance Migrations",
         "operationId": "listNamespacedVirtualMachineInstanceMigration",
         "parameters": [
           {
@@ -4554,7 +4554,7 @@
         "tags": [
           "Migrations"
         ],
-        "summary": "Create Virtual Machine Instance Migration",
+        "summary": "Create a Virtual Machine Instance Migration",
         "operationId": "createNamespacedVirtualMachineInstanceMigration",
         "parameters": [
           {
@@ -4615,7 +4615,7 @@
         "tags": [
           "Migrations"
         ],
-        "summary": "Read Virtual Machine Instance Migration",
+        "summary": "Read a Virtual Machine Instance Migration",
         "operationId": "readNamespacedVirtualMachineInstanceMigration",
         "parameters": [
           {
@@ -4661,7 +4661,7 @@
         "tags": [
           "Migrations"
         ],
-        "summary": "Replace Virtual Machine Instance Migration",
+        "summary": "Replace a Virtual Machine Instance Migration",
         "operationId": "replaceNamespacedVirtualMachineInstanceMigration",
         "parameters": [
           {
@@ -4707,7 +4707,7 @@
         "tags": [
           "Migrations"
         ],
-        "summary": "Delete Virtual Machine Instance Migration",
+        "summary": "Delete a Virtual Machine Instance Migration",
         "operationId": "deleteNamespacedVirtualMachineInstanceMigration",
         "parameters": [
           {
@@ -4721,7 +4721,7 @@
           {
             "uniqueItems": true,
             "type": "integer",
-            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The va lue zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
+            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
             "name": "gracePeriodSeconds",
             "in": "query"
           },
@@ -4767,7 +4767,7 @@
         "tags": [
           "Migrations"
         ],
-        "summary": "Patch Virtual Machine Instance Migration",
+        "summary": "Patch a Virtual Machine Instance Migration",
         "operationId": "patchNamespacedVirtualMachineInstanceMigration",
         "parameters": [
           {
@@ -4824,7 +4824,7 @@
         "tags": [
           "Virtual Machines"
         ],
-        "summary": "List Virtual Machine Instance",
+        "summary": "List Virtual Machine Instances",
         "operationId": "listNamespacedVirtualMachineInstance",
         "responses": {
           "200": {
@@ -4919,7 +4919,7 @@
         "tags": [
           "Virtual Machines"
         ],
-        "summary": "Read Virtual Machine Instance",
+        "summary": "Read a Virtual Machine Instance",
         "operationId": "readNamespacedVirtualMachineInstance",
         "responses": {
           "200": {
@@ -4980,7 +4980,7 @@
         "tags": [
           "Virtual Machines"
         ],
-        "summary": "List Virtual Machine",
+        "summary": "List Virtual Machines",
         "operationId": "listNamespacedVirtualMachine",
         "parameters": [
           {
@@ -5068,7 +5068,7 @@
         "tags": [
           "Virtual Machines"
         ],
-        "summary": "Create Virtual Machine",
+        "summary": "Create a Virtual Machine",
         "operationId": "createNamespacedVirtualMachine",
         "parameters": [
           {
@@ -5129,7 +5129,7 @@
         "tags": [
           "Virtual Machines"
         ],
-        "summary": "Read Virtual Machine",
+        "summary": "Read a Virtual Machine",
         "operationId": "readNamespacedVirtualMachine",
         "parameters": [
           {
@@ -5175,7 +5175,7 @@
         "tags": [
           "Virtual Machines"
         ],
-        "summary": "Replace Virtual Machine",
+        "summary": "Replace a Virtual Machine",
         "operationId": "replaceNamespacedVirtualMachine",
         "parameters": [
           {
@@ -5221,7 +5221,7 @@
         "tags": [
           "Virtual Machines"
         ],
-        "summary": "Delete Virtual Machine",
+        "summary": "Delete a Virtual Machine",
         "operationId": "deleteNamespacedVirtualMachine",
         "parameters": [
           {
@@ -5235,7 +5235,7 @@
           {
             "uniqueItems": true,
             "type": "integer",
-            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The va lue zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
+            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
             "name": "gracePeriodSeconds",
             "in": "query"
           },
@@ -5281,7 +5281,7 @@
         "tags": [
           "Virtual Machines"
         ],
-        "summary": "Patch Virtual Machine",
+        "summary": "Patch a Virtual Machine",
         "operationId": "patchNamespacedVirtualMachine",
         "parameters": [
           {
@@ -5338,7 +5338,7 @@
         "tags": [
           "Migrations"
         ],
-        "summary": "List Virtual Machine Instance Migration For All Namespaces",
+        "summary": "List Virtual Machine Instance Migrations For All Namespaces",
         "operationId": "listVirtualMachineInstanceMigrationForAllNamespaces",
         "responses": {
           "200": {
@@ -5425,7 +5425,7 @@
         "tags": [
           "Virtual Machines"
         ],
-        "summary": "List Virtual Machine Instance For All Namespaces",
+        "summary": "List Virtual Machine Instances For All Namespaces",
         "operationId": "listVirtualMachineInstanceForAllNamespaces",
         "responses": {
           "200": {
@@ -5512,7 +5512,7 @@
         "tags": [
           "Virtual Machines"
         ],
-        "summary": "List Virtual Machine For All Namespaces",
+        "summary": "List Virtual Machines For All Namespaces",
         "operationId": "listVirtualMachineForAllNamespaces",
         "responses": {
           "200": {
@@ -5599,7 +5599,7 @@
         "tags": [
           "Networks"
         ],
-        "summary": "List Cluster Network",
+        "summary": "List Cluster Networks",
         "operationId": "listNamespacedClusterNetwork",
         "parameters": [
           {
@@ -5695,7 +5695,7 @@
         "tags": [
           "Networks"
         ],
-        "summary": "Create Cluster Network",
+        "summary": "Create a Cluster Network",
         "operationId": "createNamespacedClusterNetwork",
         "parameters": [
           {
@@ -5754,7 +5754,7 @@
         "tags": [
           "Networks"
         ],
-        "summary": "Read Cluster Network",
+        "summary": "Read a Cluster Network",
         "operationId": "readNamespacedClusterNetwork",
         "parameters": [
           {
@@ -5800,7 +5800,7 @@
         "tags": [
           "Networks"
         ],
-        "summary": "Replace Cluster Network",
+        "summary": "Replace a Cluster Network",
         "operationId": "replaceNamespacedClusterNetwork",
         "parameters": [
           {
@@ -5846,7 +5846,7 @@
         "tags": [
           "Networks"
         ],
-        "summary": "Delete Cluster Network",
+        "summary": "Delete a Cluster Network",
         "operationId": "deleteNamespacedClusterNetwork",
         "parameters": [
           {
@@ -5860,7 +5860,7 @@
           {
             "uniqueItems": true,
             "type": "integer",
-            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The va lue zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
+            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
             "name": "gracePeriodSeconds",
             "in": "query"
           },
@@ -5906,7 +5906,7 @@
         "tags": [
           "Networks"
         ],
-        "summary": "Patch Cluster Network",
+        "summary": "Patch a Cluster Network",
         "operationId": "patchNamespacedClusterNetwork",
         "parameters": [
           {
@@ -5963,7 +5963,7 @@
         "tags": [
           "Networks"
         ],
-        "summary": "List Node Network",
+        "summary": "List Node Networks",
         "operationId": "listNamespacedNodeNetwork",
         "parameters": [
           {
@@ -6059,7 +6059,7 @@
         "tags": [
           "Networks"
         ],
-        "summary": "Create Node Network",
+        "summary": "Create a Node Network",
         "operationId": "createNamespacedNodeNetwork",
         "parameters": [
           {
@@ -6118,7 +6118,7 @@
         "tags": [
           "Networks"
         ],
-        "summary": "Read Node Network",
+        "summary": "Read a Node Network",
         "operationId": "readNamespacedNodeNetwork",
         "parameters": [
           {
@@ -6164,7 +6164,7 @@
         "tags": [
           "Networks"
         ],
-        "summary": "Replace Node Network",
+        "summary": "Replace a Node Network",
         "operationId": "replaceNamespacedNodeNetwork",
         "parameters": [
           {
@@ -6210,7 +6210,7 @@
         "tags": [
           "Networks"
         ],
-        "summary": "Delete Node Network",
+        "summary": "Delete a Node Network",
         "operationId": "deleteNamespacedNodeNetwork",
         "parameters": [
           {
@@ -6224,7 +6224,7 @@
           {
             "uniqueItems": true,
             "type": "integer",
-            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The va lue zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
+            "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
             "name": "gracePeriodSeconds",
             "in": "query"
           },
@@ -6270,7 +6270,7 @@
         "tags": [
           "Networks"
         ],
-        "summary": "Patch Node Network",
+        "summary": "Patch a Node Network",
         "operationId": "patchNamespacedNodeNetwork",
         "parameters": [
           {
