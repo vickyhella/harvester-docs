@@ -184,16 +184,27 @@ const config = {
         docsPluginId: "classic", // e.g. "classic" or the plugin-content-docs id
         config: {
           api: { // "api" is considered the <id> that you will reference in the CLI
-            specPath: "api/swagger.json", // path or URL to the OpenAPI spec
+            specPath: "api/v1.2-swagger.json", // path or URL to the OpenAPI spec
             outputDir: "docs/api", // output directory for generated *.mdx and sidebar.js files
             sidebarOptions: {
               groupPathsBy: "tag", // generate a sidebar.js slice that groups operations by tag
               categoryLinkSource: "tag",
             },
+            version: "v1.2", // Current version
+            label: "v1.2", // Current version label
+            baseUrl: "/dev/api/swagger-json", // Leading slash is important
+            versions: {
+              "v1.1": {
+                specPath: "api/v1.1-swagger.json",
+                outputDir: "versioned_docs/version-v1.1/api", // No trailing slash
+                label: "v1.1",
+                baseUrl: "/v1.1/api/swagger-json", // Leading slash is important
+              },
+            },
           },
-        }
+        },
       },
-    ]
+    ],
   ],
 };
 
