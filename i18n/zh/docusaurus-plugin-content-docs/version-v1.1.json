@@ -42,5 +42,101 @@
   "sidebar.tutorialSidebar.category.Troubleshooting": {
     "message": "故障排除",
     "description": "The label for category Troubleshooting in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.Harvester Overview": {
+    "message": "Harvester 介绍",
+    "description": "The label for the doc item Harvester Overview in sidebar tutorialSidebar, linking to the doc overview"
+  },
+  "sidebar.tutorialSidebar.doc.AirGap": {
+    "message": "离线环境",
+    "description": "The label for the doc item AirGap in sidebar tutorialSidebar, linking to the doc airgap"
+  },
+  "sidebar.tutorialSidebar.doc.Authentication": {
+    "message": "身份验证",
+    "description": "The label for the doc item Authentication in sidebar tutorialSidebar, linking to the doc authentication"
+  },
+  "sidebar.tutorialSidebar.doc.Upload Image": {
+    "message": "上传镜像",
+    "description": "The label for the doc item Upload Image in sidebar tutorialSidebar, linking to the doc upload-image"
+  },
+  "sidebar.tutorialSidebar.doc.Host Management": {
+    "message": "主机管理",
+    "description": "The label for the doc item Host Management in sidebar tutorialSidebar, linking to the doc host/host-management"
+  },
+  "sidebar.tutorialSidebar.doc.Logging": {
+    "message": "日志",
+    "description": "The label for the doc item Logging in sidebar tutorialSidebar, linking to the doc logging/harvester-logging"
+  },
+  "sidebar.tutorialSidebar.doc.Monitoring": {
+    "message": "监控",
+    "description": "The label for the doc item Monitoring in sidebar tutorialSidebar, linking to the doc monitoring/harvester-monitoring"
+  },
+  "sidebar.tutorialSidebar.doc.Terraform": {
+    "message": "Terraform",
+    "description": "The label for the doc item Terraform in sidebar tutorialSidebar, linking to the doc terraform/terraform-provider"
+  },
+  "sidebar.tutorialSidebar.doc.FAQ": {
+    "message": "常见问题",
+    "description": "The label for the doc item FAQ in sidebar tutorialSidebar, linking to the doc faq"
+  },
+  "sidebar.api.category.API": {
+    "message": "API",
+    "description": "The label for category API in sidebar api"
+  },
+  "sidebar.api.category.API.link.generated-index.title": {
+    "message": "Harvester API",
+    "description": "The generated-index page title for category API in sidebar api"
+  },
+  "sidebar.api.category.API.link.generated-index.description": {
+    "message": "This is the API doc of the Harvester server. The APIs are broken down into the categories below:",
+    "description": "The generated-index page description for category API in sidebar api"
+  },
+  "sidebar.api.category.Volumes": {
+    "message": "Volumes",
+    "description": "The label for category Volumes in sidebar api"
+  },
+  "sidebar.api.category.SSH Keys": {
+    "message": "SSH Keys",
+    "description": "The label for category SSH Keys in sidebar api"
+  },
+  "sidebar.api.category.Support Bundles": {
+    "message": "Support Bundles",
+    "description": "The label for category Support Bundles in sidebar api"
+  },
+  "sidebar.api.category.Upgrades": {
+    "message": "Upgrades",
+    "description": "The label for category Upgrades in sidebar api"
+  },
+  "sidebar.api.category.Backups": {
+    "message": "Backups",
+    "description": "The label for category Backups in sidebar api"
+  },
+  "sidebar.api.category.Images": {
+    "message": "Images",
+    "description": "The label for category Images in sidebar api"
+  },
+  "sidebar.api.category.Restores": {
+    "message": "Restores",
+    "description": "The label for category Restores in sidebar api"
+  },
+  "sidebar.api.category.Virtual Machine Templates": {
+    "message": "Virtual Machine Templates",
+    "description": "The label for category Virtual Machine Templates in sidebar api"
+  },
+  "sidebar.api.category.Networks": {
+    "message": "Networks",
+    "description": "The label for category Networks in sidebar api"
+  },
+  "sidebar.api.category.Migrations": {
+    "message": "Migrations",
+    "description": "The label for category Migrations in sidebar api"
+  },
+  "sidebar.api.category.Virtual Machines": {
+    "message": "Virtual Machines",
+    "description": "The label for category Virtual Machines in sidebar api"
+  },
+  "sidebar.api.doc.Introduction": {
+    "message": "Introduction",
+    "description": "The label for the doc item Introduction in sidebar api, linking to the doc api/harvester-apis"
   }
 }

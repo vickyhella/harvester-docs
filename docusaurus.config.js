@@ -89,6 +89,12 @@ const config = {
           dropdownActiveClassDisabled: true,
         },
         {
+          type: 'docSidebar',
+          label: 'API',
+          position: 'left',
+          sidebarId: 'api',
+        },
+        {
           type: "localeDropdown",
           position: "right",
         },

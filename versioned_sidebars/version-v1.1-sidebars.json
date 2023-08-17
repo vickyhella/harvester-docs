@@ -135,7 +135,9 @@
       "type": "doc",
       "id": "faq",
       "label": "FAQ"
-    },
+    }
+  ],
+  "api": [
     {
       "type": "category",
       "label": "API",
