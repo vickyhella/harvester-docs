@@ -3,81 +3,49 @@
     "message": "v1.2-dev",
     "description": "The label for version current"
   },
-  "sidebar.sidebar.category.Installation": {
+  "sidebar.docs.category.Installation": {
     "message": "安装",
-    "description": "The label for category Installation in sidebar sidebar"
+    "description": "The label for category Installation in sidebar docs"
   },
-  "sidebar.sidebar.category.Upgrade": {
+  "sidebar.docs.category.Upgrade": {
     "message": "升级",
-    "description": "The label for category Upgrade in sidebar sidebar"
+    "description": "The label for category Upgrade in sidebar docs"
   },
-  "sidebar.sidebar.category.Previous Releases": {
+  "sidebar.docs.category.Previous Releases": {
     "message": "以前的版本",
-    "description": "The label for category Previous Releases in sidebar sidebar"
+    "description": "The label for category Previous Releases in sidebar docs"
   },
-  "sidebar.sidebar.category.VM Management": {
+  "sidebar.docs.category.VM Management": {
     "message": "VM 管理",
-    "description": "The label for category VM Management in sidebar sidebar"
+    "description": "The label for category VM Management in sidebar docs"
   },
-  "sidebar.sidebar.category.Volume Management": {
+  "sidebar.docs.category.Volume Management": {
     "message": "卷管理",
-    "description": "The label for category Volume Management in sidebar sidebar"
+    "description": "The label for category Volume Management in sidebar docs"
   },
-  "sidebar.sidebar.category.Networking": {
+  "sidebar.docs.category.Networking": {
     "message": "网络",
-    "description": "The label for category Networking in sidebar sidebar"
+    "description": "The label for category Networking in sidebar docs"
   },
-  "sidebar.sidebar.category.Advanced": {
+  "sidebar.docs.category.Advanced": {
     "message": "高级设置",
-    "description": "The label for category Advanced in sidebar sidebar"
+    "description": "The label for category Advanced in sidebar docs"
   },
-  "sidebar.sidebar.category.Rancher Integration": {
+  "sidebar.docs.category.Rancher Integration": {
     "message": "Rancher 集成",
-    "description": "The label for category Rancher Integration in sidebar sidebar"
+    "description": "The label for category Rancher Integration in sidebar docs"
   },
-  "sidebar.sidebar.category.Harvester Node Driver": {
+  "sidebar.docs.category.Harvester Node Driver": {
     "message": "Harvester Node Driver",
-    "description": "The label for category Harvester Node Driver in sidebar sidebar"
+    "description": "The label for category Harvester Node Driver in sidebar docs"
   },
-  "sidebar.sidebar.category.Troubleshooting": {
+  "sidebar.docs.category.Troubleshooting": {
     "message": "故障排除",
-    "description": "The label for category Troubleshooting in sidebar sidebar"
+    "description": "The label for category Troubleshooting in sidebar docs"
   },
-  "sidebar.sidebar.doc.Overview": {
-    "message": "概述",
-    "description": "The label for the doc item Overview in sidebar sidebar, linking to the doc overview"
-  },
-  "sidebar.sidebar.doc.AirGap": {
-    "message": "离线环境",
-    "description": "The label for the doc item AirGap in sidebar sidebar, linking to the doc airgap"
-  },
-  "sidebar.sidebar.doc.Authentication": {
-    "message": "身份验证",
-    "description": "The label for the doc item Authentication in sidebar sidebar, linking to the doc authentication"
-  },
-  "sidebar.sidebar.doc.Upload Image": {
-    "message": "上传镜像",
-    "description": "The label for the doc item Upload Image in sidebar sidebar, linking to the doc upload-image"
-  },
-  "sidebar.sidebar.doc.Host Management": {
-    "message": "主机管理",
-    "description": "The label for the doc item Host Management in sidebar sidebar, linking to the doc host/host-management"
-  },
-  "sidebar.sidebar.doc.Logging": {
-    "message": "日志",
-    "description": "The label for the doc item Logging in sidebar sidebar, linking to the doc logging/harvester-logging"
-  },
-  "sidebar.sidebar.doc.Monitoring": {
-    "message": "监控",
-    "description": "The label for the doc item Monitoring in sidebar sidebar, linking to the doc monitoring/harvester-monitoring"
-  },
-  "sidebar.sidebar.doc.Terraform": {
-    "message": "Terraform",
-    "description": "The label for the doc item Terraform in sidebar sidebar, linking to the doc terraform/terraform-provider"
-  },
-  "sidebar.sidebar.doc.FAQ": {
-    "message": "常见问题",
-    "description": "The label for the doc item FAQ in sidebar sidebar, linking to the doc faq"
+  "sidebar.docs.category.API": {
+    "message": "API",
+    "description": "The label for category API in sidebar docs"
   },
   "sidebar.api.category.API": {
     "message": "API",

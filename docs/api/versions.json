@@ -2,11 +2,11 @@
   {
     "version": "v1.2",
     "label": "v1.2",
-    "baseUrl": "/dev/api/swagger-json"
+    "baseUrl": "/dev/api"
   },
   {
     "version": "v1.1",
     "label": "v1.1",
-    "baseUrl": "/v1.1/api/swagger-json"
+    "baseUrl": "/v1.1/api"
   }
 ]
