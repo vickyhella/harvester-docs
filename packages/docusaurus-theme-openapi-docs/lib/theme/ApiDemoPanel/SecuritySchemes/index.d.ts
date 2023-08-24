@@ -1,3 +1,3 @@
-/// <reference types="react" />
-declare function SecuritySchemes(props: any): JSX.Element | null;
+import React from "react";
+declare function SecuritySchemes(props: any): React.JSX.Element | null;
 export default SecuritySchemes;

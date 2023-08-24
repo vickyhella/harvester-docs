@@ -1,7 +1,7 @@
-/// <reference types="react" />
+import React from "react";
 export interface Props {
     method: string;
     path: string;
 }
-declare function MethodEndpoint({ method, path }: Props): JSX.Element;
+declare function MethodEndpoint({ method, path }: Props): React.JSX.Element;
 export default MethodEndpoint;

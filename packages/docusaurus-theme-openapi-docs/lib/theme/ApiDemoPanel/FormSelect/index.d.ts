@@ -4,5 +4,5 @@ export interface Props {
     options?: string[];
     onChange?: React.ChangeEventHandler<HTMLSelectElement>;
 }
-declare function FormSelect({ value, options, onChange }: Props): JSX.Element | null;
+declare function FormSelect({ value, options, onChange }: Props): React.JSX.Element | null;
 export default FormSelect;

@@ -5,5 +5,5 @@ export interface Props {
     onChange?: React.ChangeEventHandler<HTMLSelectElement>;
     showErrors?: boolean;
 }
-declare function FormMultiSelect({ value, options, onChange, showErrors }: Props): JSX.Element | null;
+declare function FormMultiSelect({ value, options, onChange, showErrors }: Props): React.JSX.Element | null;
 export default FormMultiSelect;

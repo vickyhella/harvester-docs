@@ -4,5 +4,5 @@ export interface Props {
     onClick?: React.MouseEventHandler<HTMLButtonElement>;
     children?: React.ReactNode;
 }
-declare function FloatingButton({ label, onClick, children }: Props): JSX.Element;
+declare function FloatingButton({ label, onClick, children }: Props): React.JSX.Element;
 export default FloatingButton;

@@ -1,3 +1,3 @@
-/// <reference types="react" />
-declare function Server(): JSX.Element | null;
+import React from "react";
+declare function Server(): React.JSX.Element | null;
 export default Server;

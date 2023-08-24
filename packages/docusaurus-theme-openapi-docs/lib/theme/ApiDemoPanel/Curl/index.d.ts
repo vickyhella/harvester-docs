@@ -1,4 +1,4 @@
-/// <reference types="react" />
+import React from "react";
 import sdk from "@paloaltonetworks/postman-collection";
 export interface Language {
     highlight: string;
@@ -16,5 +16,5 @@ export interface Props {
     postman: sdk.Request;
     codeSamples: any;
 }
-declare function Curl({ postman, codeSamples }: Props): JSX.Element | null;
+declare function Curl({ postman, codeSamples }: Props): React.JSX.Element | null;
 export default Curl;

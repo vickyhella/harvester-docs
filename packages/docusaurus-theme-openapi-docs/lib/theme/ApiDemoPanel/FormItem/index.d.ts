@@ -6,5 +6,5 @@ export interface Props {
     children?: React.ReactNode;
     className?: string;
 }
-declare function FormItem({ label, type, required, children, className }: Props): JSX.Element;
+declare function FormItem({ label, type, required, children, className }: Props): React.JSX.Element;
 export default FormItem;

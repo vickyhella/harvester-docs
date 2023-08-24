@@ -5,5 +5,5 @@ export interface Props {
     password?: boolean;
     onChange?: React.ChangeEventHandler<HTMLInputElement>;
 }
-declare function FormTextInput({ isRequired, value, placeholder, password, onChange, paramName, }: Props): JSX.Element;
+declare function FormTextInput({ isRequired, value, placeholder, password, onChange, paramName, }: Props): React.JSX.Element;
 export default FormTextInput;

@@ -1,4 +1,4 @@
-/// <reference types="react" />
+import React from "react";
 import { RequestBodyObject } from "docusaurus-plugin-openapi-docs/src/openapi/types";
 export interface Props {
     jsonRequestBodyExample: string;
@@ -6,5 +6,5 @@ export interface Props {
     methods?: any;
     required?: boolean;
 }
-declare function BodyWrap({ requestBodyMetadata, jsonRequestBodyExample, methods, required, }: Props): JSX.Element | null;
+declare function BodyWrap({ requestBodyMetadata, jsonRequestBodyExample, methods, required, }: Props): React.JSX.Element | null;
 export default BodyWrap;

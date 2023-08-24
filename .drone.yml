@@ -11,6 +11,7 @@ steps:
     image: node:18-alpine
     commands:
       - yarn install --frozen-lockfile
+      - yarn build-packages
 
   - name: ignore-openapi
     image: node:18-alpine
@@ -57,6 +58,7 @@ steps:
     image: node:18-alpine
     commands:
       - yarn install --frozen-lockfile
+      - yarn build-packages
 
   - name: build
     image: node:18-alpine

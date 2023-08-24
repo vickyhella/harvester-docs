@@ -1,3 +1,3 @@
-/// <reference types="react" />
-declare function ContentType(): JSX.Element | null;
+import React from "react";
+declare function ContentType(): React.JSX.Element | null;
 export default ContentType;

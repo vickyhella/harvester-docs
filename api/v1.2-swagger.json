@@ -8224,7 +8224,7 @@
     },
     "k8s.io.v1.Time": {
       "type": "string",
-      "format": "date-time"
+      "default": "2023-08-24T08:38:45.126Z"
     },
     "k8s.io.v1.Toleration": {
       "type": "object",

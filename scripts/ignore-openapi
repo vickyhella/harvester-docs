@@ -1,7 +1,9 @@
 #!/bin/sh
 
+API_DIRECTORY="api"
+
 # ignore if the api folder not exists or api/swagger.json not exists.
-if [ ! -d "api" ] || [ ! -f "api/swagger.json" ]; then
+if [ ! -d $API_DIRECTORY ] || [ -z "$(ls $API_DIRECTORY)" ]; then
     exit 0
 fi
 
@@ -11,7 +13,7 @@ AFTER_COMMIT_ID=${DRONE_COMMIT}
 FILES=$(git --no-pager diff --name-only ${BEFORE_COMMIT_ID}...${AFTER_COMMIT_ID})
 
 # if the api/swaggers.json has changed
-if echo "$FILES" | grep -q "api/swagger.json"; then
+if echo "$FILES" | grep -qE "v(.*)swagger.json"; then
     # perform re-generate and check for dirty files
     yarn clean-api-docs all
     yarn gen-api-docs all
@@ -32,17 +34,17 @@ if echo "$FILES" | grep -q "api/swagger.json"; then
 fi
 
 # if the files in the docs/api have changed
-if echo "$FILES" | grep -q "docs/api/"; then
+if echo "$FILES" | grep -q "docs/$API_DIRECTORY/"; then
     exit 0
 fi
 
 # ignore if the docs/api folder not exists.
-if [ ! -d "docs/api" ]; then
+if [ ! -d "docs/$API_DIRECTORY" ]; then
     exit 0
 fi
 
 # if no any change then don't build the openapi documents.
-rm -rf docs/api/*.mdx
-cat << EOF > docs/api/sidebar.js
+rm -rf docs/$API_DIRECTORY/*.mdx
+cat << EOF > docs/$API_DIRECTORY/sidebar.js
 module.exports = [];
 EOF
