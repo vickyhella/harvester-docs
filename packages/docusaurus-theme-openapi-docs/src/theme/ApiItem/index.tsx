@@ -134,15 +134,8 @@ export default function ApiItem(props: Props): JSX.Element {
           <DocItemLayout>
             <Provider store={store2}>
               <div className={clsx("row", "theme-api-markdown")}>
-                <div className="col col--7 openapi-left-panel__container">
+                <div className="col col--12">
                   <MDXComponent />
-                </div>
-                <div className="col col--5 openapi-right-panel__container">
-                  <BrowserOnly fallback={<div>Loading...</div>}>
-                    {() => {
-                      return <ApiDemoPanel item={api} infoPath={infoPath} />;
-                    }}
-                  </BrowserOnly>
                 </div>
               </div>
             </Provider>

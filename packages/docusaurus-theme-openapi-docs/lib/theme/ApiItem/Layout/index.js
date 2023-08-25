@@ -75,14 +75,19 @@ function DocItemLayout({ children }) {
           react_1.default.createElement(
             "div",
             {
-              className: (0, clsx_1.default)("col", api ? "col--7" : "col--12"),
+              className: (0, clsx_1.default)(
+                "col",
+                api ? "col--12" : "col--12"
+              ),
             },
             react_1.default.createElement(Footer_1.default, null)
           )
         ),
         react_1.default.createElement(
           "div",
-          { className: (0, clsx_1.default)("col", api ? "col--7" : "col--12") },
+          {
+            className: (0, clsx_1.default)("col", api ? "col--12" : "col--12"),
+          },
           react_1.default.createElement(Paginator_1.default, null)
         )
       )

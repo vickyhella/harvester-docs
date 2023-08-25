@@ -12,7 +12,6 @@ var __importDefault =
   };
 Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importDefault(require("react"));
-const BrowserOnly_1 = __importDefault(require("@docusaurus/BrowserOnly"));
 const ExecutionEnvironment_1 = __importDefault(
   require("@docusaurus/ExecutionEnvironment")
 );
@@ -128,28 +127,8 @@ function ApiItem(props) {
               { className: (0, clsx_1.default)("row", "theme-api-markdown") },
               react_1.default.createElement(
                 "div",
-                { className: "col col--7 openapi-left-panel__container" },
+                { className: "col col--12" },
                 react_1.default.createElement(MDXComponent, null)
-              ),
-              react_1.default.createElement(
-                "div",
-                { className: "col col--5 openapi-right-panel__container" },
-                react_1.default.createElement(
-                  BrowserOnly_1.default,
-                  {
-                    fallback: react_1.default.createElement(
-                      "div",
-                      null,
-                      "Loading..."
-                    ),
-                  },
-                  () => {
-                    return react_1.default.createElement(ApiDemoPanel, {
-                      item: api,
-                      infoPath: infoPath,
-                    });
-                  }
-                )
               )
             )
           )
