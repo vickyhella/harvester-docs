@@ -5,7 +5,7 @@
     "version": "v1beta1"
   },
   "paths": {
-    "/api/v1/namespaces/{namespace}/persistentvolumeclaims": {
+    "/api/v1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/persistentvolumeclaims": {
       "get": {
         "description": "Get a list of PersistentVolumeClaim objects in a namespace.",
         "produces": [
@@ -154,7 +154,7 @@
         }
       ]
     },
-    "/api/v1/namespaces/{namespace}/persistentvolumeclaims/{name}": {
+    "/api/v1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/persistentvolumeclaims/{name:[a-z0-9][a-z0-9\\-]*}": {
       "get": {
         "description": "Get a PersistentVolumeClaim object.",
         "produces": [
@@ -537,7 +537,7 @@
         }
       ]
     },
-    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace}/keypairs": {
+    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/keypairs": {
       "get": {
         "description": "Get a list of KeyPair objects in a namespace.",
         "produces": [
@@ -686,7 +686,7 @@
         }
       ]
     },
-    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace}/keypairs/{name}": {
+    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/keypairs/{name:[a-z0-9][a-z0-9\\-]*}": {
       "get": {
         "description": "Get a KeyPair object.",
         "produces": [
@@ -895,7 +895,7 @@
         }
       ]
     },
-    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace}/supportbundles": {
+    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/supportbundles": {
       "get": {
         "description": "Get a list of SupportBundle objects in a namespace.",
         "produces": [
@@ -1044,7 +1044,7 @@
         }
       ]
     },
-    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace}/supportbundles/{name}": {
+    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/supportbundles/{name:[a-z0-9][a-z0-9\\-]*}": {
       "get": {
         "description": "Get a SupportBundle object.",
         "produces": [
@@ -1253,7 +1253,7 @@
         }
       ]
     },
-    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace}/upgrades": {
+    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/upgrades": {
       "get": {
         "description": "Get a list of Upgrade objects in a namespace.",
         "produces": [
@@ -1402,7 +1402,7 @@
         }
       ]
     },
-    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace}/upgrades/{name}": {
+    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/upgrades/{name:[a-z0-9][a-z0-9\\-]*}": {
       "get": {
         "description": "Get a Upgrade object.",
         "produces": [
@@ -1611,7 +1611,7 @@
         }
       ]
     },
-    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace}/virtualmachinebackups": {
+    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/virtualmachinebackups": {
       "get": {
         "description": "Get a list of VirtualMachineBackup objects in a namespace.",
         "produces": [
@@ -1760,7 +1760,7 @@
         }
       ]
     },
-    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace}/virtualmachinebackups/{name}": {
+    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/virtualmachinebackups/{name:[a-z0-9][a-z0-9\\-]*}": {
       "get": {
         "description": "Get a VirtualMachineBackup object.",
         "produces": [
@@ -1969,7 +1969,7 @@
         }
       ]
     },
-    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace}/virtualmachineimages": {
+    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/virtualmachineimages": {
       "get": {
         "description": "Get a list of VirtualMachineImage objects in a namespace.",
         "produces": [
@@ -2118,7 +2118,7 @@
         }
       ]
     },
-    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace}/virtualmachineimages/{name}": {
+    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/virtualmachineimages/{name:[a-z0-9][a-z0-9\\-]*}": {
       "get": {
         "description": "Get a VirtualMachineImage object.",
         "produces": [
@@ -2327,7 +2327,7 @@
         }
       ]
     },
-    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace}/virtualmachinerestores": {
+    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/virtualmachinerestores": {
       "get": {
         "description": "Get a list of VirtualMachineRestore objects in a namespace.",
         "produces": [
@@ -2476,7 +2476,7 @@
         }
       ]
     },
-    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace}/virtualmachinerestores/{name}": {
+    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/virtualmachinerestores/{name:[a-z0-9][a-z0-9\\-]*}": {
       "get": {
         "description": "Get a VirtualMachineRestore object.",
         "produces": [
@@ -2685,7 +2685,7 @@
         }
       ]
     },
-    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace}/virtualmachinetemplates": {
+    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/virtualmachinetemplates": {
       "get": {
         "description": "Get a list of VirtualMachineTemplate objects in a namespace.",
         "produces": [
@@ -2834,7 +2834,7 @@
         }
       ]
     },
-    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace}/virtualmachinetemplates/{name}": {
+    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/virtualmachinetemplates/{name:[a-z0-9][a-z0-9\\-]*}": {
       "get": {
         "description": "Get a VirtualMachineTemplate object.",
         "produces": [
@@ -3043,7 +3043,7 @@
         }
       ]
     },
-    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace}/virtualmachinetemplateversions": {
+    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/virtualmachinetemplateversions": {
       "get": {
         "description": "Get a list of VirtualMachineTemplateVersion objects in a namespace.",
         "produces": [
@@ -3192,7 +3192,7 @@
         }
       ]
     },
-    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace}/virtualmachinetemplateversions/{name}": {
+    "/apis/harvesterhci.io/v1beta1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/virtualmachinetemplateversions/{name:[a-z0-9][a-z0-9\\-]*}": {
       "get": {
         "description": "Get a VirtualMachineTemplateVersion object.",
         "produces": [
@@ -4010,7 +4010,7 @@
         }
       ]
     },
-    "/apis/k8s.cni.cncf.io/v1/namespaces/{namespace}/network-attachment-definitions": {
+    "/apis/k8s.cni.cncf.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/network-attachment-definitions": {
       "get": {
         "description": "Get a list of NetworkAttachmentDefinition objects in a namespace.",
         "produces": [
@@ -4159,7 +4159,7 @@
         }
       ]
     },
-    "/apis/k8s.cni.cncf.io/v1/namespaces/{namespace}/network-attachment-definitions/{name}": {
+    "/apis/k8s.cni.cncf.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/network-attachment-definitions/{name:[a-z0-9][a-z0-9\\-]*}": {
       "get": {
         "description": "Get a NetworkAttachmentDefinition object.",
         "produces": [
@@ -4455,7 +4455,7 @@
         }
       ]
     },
-    "/apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancemigrations": {
+    "/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/virtualmachineinstancemigrations": {
       "get": {
         "description": "Get a list of VirtualMachineInstanceMigration objects in a namespace.",
         "produces": [
@@ -4604,7 +4604,7 @@
         }
       ]
     },
-    "/apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancemigrations/{name}": {
+    "/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/virtualmachineinstancemigrations/{name:[a-z0-9][a-z0-9\\-]*}": {
       "get": {
         "description": "Get a VirtualMachineInstanceMigration object.",
         "produces": [
@@ -4813,7 +4813,7 @@
         }
       ]
     },
-    "/apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstances": {
+    "/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/virtualmachineinstances": {
       "get": {
         "description": "Get a list of VirtualMachineInstance objects in a namespace.",
         "produces": [
@@ -4908,7 +4908,7 @@
         }
       ]
     },
-    "/apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstances/{name}": {
+    "/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/virtualmachineinstances/{name:[a-z0-9][a-z0-9\\-]*}": {
       "get": {
         "description": "Get a VirtualMachineInstance object.",
         "produces": [
@@ -4969,7 +4969,7 @@
         }
       ]
     },
-    "/apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachines": {
+    "/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/virtualmachines": {
       "get": {
         "description": "Get a list of VirtualMachine objects in a namespace.",
         "produces": [
@@ -5118,7 +5118,7 @@
         }
       ]
     },
-    "/apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachines/{name}": {
+    "/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\\-]*}/virtualmachines/{name:[a-z0-9][a-z0-9\\-]*}": {
       "get": {
         "description": "Get a VirtualMachine object.",
         "produces": [
@@ -5743,7 +5743,7 @@
         }
       }
     },
-    "/apis/network.harvesterhci.io/v1beta1/clusternetworks/{name}": {
+    "/apis/network.harvesterhci.io/v1beta1/clusternetworks/{name:[a-z0-9][a-z0-9\\-]*}": {
       "get": {
         "description": "Get a ClusterNetwork object.",
         "produces": [
@@ -6107,7 +6107,7 @@
         }
       }
     },
-    "/apis/network.harvesterhci.io/v1beta1/nodenetworks/{name}": {
+    "/apis/network.harvesterhci.io/v1beta1/nodenetworks/{name:[a-z0-9][a-z0-9\\-]*}": {
       "get": {
         "description": "Get a NodeNetwork object.",
         "produces": [
@@ -8224,7 +8224,7 @@
     },
     "k8s.io.v1.Time": {
       "type": "string",
-      "default": "2023-08-24T08:38:45.126Z"
+      "default": ""
     },
     "k8s.io.v1.Toleration": {
       "type": "object",
@@ -11115,6 +11115,7 @@
     "network.harvesterhci.io.v1beta1.ClusterNetwork": {
       "type": "object",
       "required": [
+        "enable",
         "kind",
         "apiVersion"
       ],
@@ -11122,16 +11123,26 @@
         "apiVersion": {
           "type": "string"
         },
+        "config": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "default": ""
+          }
+        },
+        "description": {
+          "type": "string"
+        },
+        "enable": {
+          "type": "boolean",
+          "default": false
+        },
         "kind": {
           "type": "string"
         },
         "metadata": {
           "default": {},
           "$ref": "#/definitions/k8s.io.v1.ObjectMeta"
-        },
-        "status": {
-          "default": {},
-          "$ref": "#/definitions/network.harvesterhci.io.v1beta1.ClusterNetworkStatus"
         }
       }
     },
@@ -11160,18 +11171,6 @@
         "metadata": {
           "default": {},
           "$ref": "#/definitions/k8s.io.v1.ListMeta"
-        }
-      }
-    },
-    "network.harvesterhci.io.v1beta1.ClusterNetworkStatus": {
-      "type": "object",
-      "properties": {
-        "conditions": {
-          "type": "array",
-          "items": {
-            "default": {},
-            "$ref": "#/definitions/network.harvesterhci.io.v1beta1.Condition"
-          }
         }
       }
     },
@@ -11206,13 +11205,24 @@
     },
     "network.harvesterhci.io.v1beta1.LinkStatus": {
       "type": "object",
-      "required": [
-        "name"
-      ],
       "properties": {
+        "conditions": {
+          "type": "array",
+          "items": {
+            "default": {},
+            "$ref": "#/definitions/network.harvesterhci.io.v1beta1.Condition"
+          }
+        },
         "index": {
           "type": "integer",
           "format": "int32"
+        },
+        "ipv4Address": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "default": ""
+          }
         },
         "mac": {
           "type": "string"
@@ -11221,12 +11231,15 @@
           "type": "integer",
           "format": "int32"
         },
-        "name": {
-          "type": "string",
-          "default": ""
-        },
         "promiscuous": {
           "type": "boolean"
+        },
+        "routes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "default": ""
+          }
         },
         "state": {
           "type": "string"
@@ -11236,7 +11249,7 @@
         }
       }
     },
-    "network.harvesterhci.io.v1beta1.NetworkInterface": {
+    "network.harvesterhci.io.v1beta1.NIC": {
       "type": "object",
       "required": [
         "index",
@@ -11267,9 +11280,6 @@
           "default": ""
         },
         "usedByManagementNetwork": {
-          "type": "boolean"
-        },
-        "usedByVlanNetwork": {
           "type": "boolean"
         }
       }
@@ -11378,7 +11388,7 @@
           "type": "array",
           "items": {
             "default": {},
-            "$ref": "#/definitions/network.harvesterhci.io.v1beta1.NetworkInterface"
+            "$ref": "#/definitions/network.harvesterhci.io.v1beta1.NIC"
           }
         }
       }
