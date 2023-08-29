@@ -15,8 +15,7 @@ FILES=$(git --no-pager diff --name-only ${BEFORE_COMMIT_ID}...${AFTER_COMMIT_ID}
 # if the api/swaggers.json has changed
 if echo "$FILES" | grep -qE "v(.*)swagger.json"; then
     # perform re-generate and check for dirty files
-    yarn clean-api-docs all && yarn gen-api-docs all
-    yarn docusaurus clean-api-docs:version api:all && yarn docusaurus gen-api-docs:version api:all
+    yarn clean-api-docs && yarn gen-api-docs
     dirty_files=$(git status --porcelain --untracked-files=no | grep -v "harvester-apis.info.mdx")
     # exit 0 if dirty_file is empty
     if [ -z "$dirty_files" ]; then
