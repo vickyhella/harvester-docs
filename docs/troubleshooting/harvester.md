@@ -145,7 +145,7 @@ If the above steps are successful and the missing interface shows, we can confir
 
 #### Solution
 
-Due to support issues, Intel restricts the types of SFPs used on their NICs. To make the above changes persistent, adding the following content to a [config.yaml](/install/harvester-configuration.md) during installation is recommended.
+Due to support issues, Intel restricts the types of SFPs used on their NICs. To make the above changes persistent, adding the following content to a [config.yaml](../install/harvester-configuration.md) during installation is recommended.
 
 ```YAML
 os:
