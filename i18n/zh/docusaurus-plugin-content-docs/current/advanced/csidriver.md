@@ -67,4 +67,4 @@ Harvester 集群安装完成后，请参考[如何访问 Harvester 集群的 kub
 
 ## 参考
 
-- [在 Harvester 中使用 Rook Ceph 存储](https://harvesterhci.io/kb/using_rook_ceph_storage)
+- [在 Harvester 中使用 Rook Ceph 存储](hhttps://harvesterhci.io/kb/use_rook_ceph_external_storage)
